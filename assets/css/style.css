@@ -43,13 +43,13 @@ body{
 }
 
 .h1, h1 {
-    font-size: 66px;
-    line-height: 72px;
+    font-size: 3.75rem;
+    line-height: 4.5rem;
     font-weight: 700;
 }
 .h2, h2 {
-    font-size: 46px;
-    line-height: 52px;
+    font-size: 2.87rem;
+    line-height: 3.25rem;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
@@ -79,20 +79,30 @@ body{
     color: var(--e-global-color-primary);
 }
 p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     font-weight: 400;
     font-family: 'Manrope', sans-serif;
     color: var(--e-global-color-text);
 }
 .text-size-18 {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.12rem;
+    line-height: 1.87rem;
 }
 .text-size-16 {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.37rem;
 }
+
+#botman {
+    width: 70vh;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+  }
 
 /* Home Page Style */
 
@@ -313,7 +323,7 @@ p {
 .banner-section .banner_wrapper .banner-image{
     position: absolute;
     top: -116px;
-    left: -210px;
+    left: -100px;
 }
 
 /* About us */
