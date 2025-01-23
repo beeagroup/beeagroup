@@ -72,12 +72,12 @@
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage img {width: 700px;}
 }
 @media only screen and (max-width : 1199px){
-h1 {font-size: 50px; line-height: 58px;}
+h1 {font-size: 3.12rem; line-height: 3.62rem;}
 h2 {font-size: 38px; line-height: 44px;}
 h3 {font-size: 30px; line-height: 38px;}
 h4 {font-size: 20px; line-height: 28px;}
 h5 {font-size: 18px; line-height: 26px;}
-p {font-size: 18px; line-height: 24px;}
+p {font-size: 1.12rem; line-height: 1.5rem;}
 .banner_outer .banner-logo img{width: 200px;}
 .banner_outer .banner-sideshape {display: none;}
 .navbar-nav li { margin: 0 5px;}
@@ -600,9 +600,11 @@ p {font-size: 16px; line-height: 22px;}
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage img {width: 460px;}
 }
 @media only screen and (max-width : 575px){
-h1 {font-size: 30px; line-height: 36px;}
+h1 {font-size: 1.87rem; line-height: 2.25rem;}
 h2 {font-size: 24px; line-height: 30px;}
-p { font-size: 14px; line-height: 20px;}
+p { font-size: 0.87rem; line-height: 1.25rem;}
+.banner_outer .banner-logo img{width: 100vh;}
+#botman { width: 43vh; animation: float 3s ease-in-out infinite;}
 .text-size-18 {font-size: 14px; line-height: 20px;}
 .navbar-collapse {width: 58%; top: 64px;}
 .navbar-brand figure img {width: 130px;}
@@ -665,7 +667,7 @@ p { font-size: 14px; line-height: 20px;}
 .footer-section .middle-portion .icon .footer-location {left: 25px;}
 .footer-section .footer-image {display: none;}
 .footer-section .footer-image img {width: 88px;}
-.footer-section .copyright p {font-size: 12px; line-height: 16px;}
+.footer-section .copyright p {font-size: 0.75rem; line-height: 1rem;}
 /* Projects */
 .sub-banner .header {padding: 0;}
 .sub-banner .banner-section .banner_content p {padding: 0;}
