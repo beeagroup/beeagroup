@@ -1,12 +1,12 @@
 @media screen and (max-width: 1785px){
 .banner_outer .header {padding: 0 200px;}
-.banner-section {padding: 152px 210px 290px;}
+.banner-section {padding: 140px 210px 290px;}
 /* Projects */
 .sub-banner .header {padding: 0 200px;}
 }
 @media screen and (max-width: 1700px){
 .banner_outer .header {padding: 0px 165px;}
-.banner-section {padding: 152px 190px 290px;}
+.banner-section {padding: 140px 190px 290px;}
 .banner-section .banner_content h1 {padding-right: 0;}
 .banner-section .banner_wrapper .banner-image {left: -175px;}
 /* Projects */
@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 1580px){
 .banner_outer .header {padding: 0px 100px;}
-.banner-section {padding: 152px 115px 290px;}
+.banner-section {padding: 140px 115px 290px;}
 .banner-section .banner_wrapper .banner-image {top: -50px; left: -170px;}
 .banner-section .banner_wrapper .banner-image img { width: 770px;}
 /* Projects */
@@ -78,7 +78,7 @@ h3 {font-size: 30px; line-height: 38px;}
 h4 {font-size: 20px; line-height: 28px;}
 h5 {font-size: 18px; line-height: 26px;}
 p {font-size: 1.12rem; line-height: 1.5rem;}
-.banner_outer .banner-logo img{width: 200px;}
+.banner_outer .banner-logo img{width: 100vh;}
 .banner_outer .banner-sideshape {display: none;}
 .navbar-nav li { margin: 0 5px;}
 .navbar-nav .nav-space { margin: 0 5px;}
@@ -193,7 +193,7 @@ p {font-size: 1.12rem; line-height: 1.5rem;}
 #fixed-form-container .body input {padding: 4px 12px; margin-bottom: 0;}
 #fixed-form-container .body .submit_now {font-size: 16px; line-height: 20px; padding: 10px 22px;}
 /* Projects */
-.sub-banner .banner-logo img {width: 200px;}
+.sub-banner .banner-logo img {width: 100vh;}
 .sub-banner .banner-section {padding: 100px 0;}
 .sub-banner .banner-section .banner_content h1 {margin-bottom: 10px;}
 .sub-banner .banner-section .banner_content p {padding-right: 66px; margin-bottom: 20px;}
@@ -600,7 +600,7 @@ p {font-size: 16px; line-height: 22px;}
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage img {width: 460px;}
 }
 @media only screen and (max-width : 575px){
-h1 {font-size: 1.87rem; line-height: 2.25rem;}
+h1 {font-size: 1 rem; line-height: 2.25rem;}
 h2 {font-size: 24px; line-height: 30px;}
 p { font-size: 0.87rem; line-height: 1.25rem;}
 .banner_outer .banner-logo img{width: 100vh;}
@@ -608,10 +608,10 @@ p { font-size: 0.87rem; line-height: 1.25rem;}
 .text-size-18 {font-size: 14px; line-height: 20px;}
 .navbar-collapse {width: 58%; top: 64px;}
 .navbar-brand figure img {width: 130px;}
-.navbar { padding: 16px 0;}
+.navbar { padding: 30px 0 0 0;}
 .banner_outer .header {padding: 0;}
 .banner-section .banner_content h1 {margin-bottom: 8px; padding: 0;}
-.banner-section .banner_content p {margin-bottom: 25px; padding: 0 14px;}
+.banner-section .banner_content p {margin-bottom: 15px; padding: 25px 14px;}
 .banner-section .banner_content .lets_talk {font-size: 14px; line-height: 18px;}
 .banner-section .banner_content .button1 {margin-right: 4px;}
 .banner-section .banner_wrapper .banner-image img {width: 100%;}
